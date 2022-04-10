@@ -586,7 +586,7 @@ section {
   /* filter: brightness(100%);
   background: radial-gradient(at 60% bottom,#8C52FF,Black,black);; */
   /* background-image: linear-gradient(to bottom, #C473FF); */
-  background-image: url(C:/Users/91774/Downloads/pic224.jpg);
+  background-image: url(../img/pic224.jpg);
   background-position: center; 
   background-repeat: no-repeat; 
   background-size: cover;
@@ -859,7 +859,7 @@ z-index:0 ;
 --------------------------------------------------------------*/
 
 #contactus{
-  background-image: url(C:/Users/91774/Desktop/KnightOne/assets/img/contact.jpg);
+  background-image: url(../img/contact.jpg);
   background-position: center; 
   background-repeat: no-repeat; 
   background-size: cover;
