@@ -237,7 +237,7 @@ Get Startet Button
 /* Mobile Navigation */
 .mobile-nav-toggle {
   position: fixed;
-  right: 15px;
+  right: 35px;
   top: 18px;
   z-index: 9998;
   border: 0;
@@ -370,16 +370,6 @@ section {
   position: relative;
 }
 
-#section-title-about h2::after {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 3px;
-  background: #8C52FF;
-  bottom: 0;
-  right: 0;
-}
 
 .section-title p {
   margin-bottom: 0;
@@ -460,18 +450,93 @@ section {
 #fourth{
   opacity: 1;
   font-size: 2.5vh;
-  margin-right: -0.75vw;
+  right: 24vw;
   animation: welcome4 6s linear infinite;
   text-align: right;
-  /* animation-delay: 6s; */
-  
+  /* animation-delay: 6s; */ 
 }
+
 #arrow{
-  height: 6vh;
-  width: 6vw;
+  height: 40px;
+  width: 100px;
   vertical-align: inherit;
   filter: brightness(175%);
 }
+
+/* @media (max-width:1350px) {
+  #arrow{
+    height: 5vh;
+    width: 5vw;
+  }
+  #fourth{
+    right: 24vw;
+  }
+} */
+
+@media (max-width:1180px) {
+  .section-title-home h2 {
+    font-size: 6vw;
+    }
+  #fourth{
+    right: 19.5vw;
+  }
+}
+
+@media (max-width:1008px) {
+  .section-title-home h2 {
+    font-size: 6.5vw;
+    }
+  #fourth{
+    right: 17.5vw;
+  }
+}
+
+@media (max-width:920px) {
+  .section-title-home h2 {
+    font-size: 7vw;
+    }
+  #fourth{
+    right: 0;
+    left: 7vw;
+    text-align: left;
+    font-size: 2vw;
+  }
+}
+
+@media (max-width:700px) {
+  #arrow{
+    height: 30px;
+    width: 75px;
+  }
+  #fourth{
+    padding-bottom: 20%;
+  }
+}
+
+@media (max-width:550px) {
+  #arrow{
+    height: 20px;
+    width: 50px;
+  }
+  #fourth{
+    padding-bottom: 30%;
+  }
+}
+
+@media (max-width:400px) {
+  #fourth{
+    padding-bottom: 40%;
+  }
+  #arrow{
+    height: 15px;
+    width: 40px;
+  }
+}
+
+@media (w) {
+  
+}
+
 @keyframes welcome1 {
   0%{
     opacity: 0;
@@ -577,7 +642,7 @@ section {
 } */
 .about h2{
   margin-top: 35px;
-  text-align: right;
+  text-align: center;
 }
 
 .about{
@@ -723,6 +788,18 @@ z-index:0 ;
   width: 500px;
   margin-top: 5vh;
 }
+
+#section-title-about h2::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #8C52FF;
+  bottom: 0;
+  left: 45%;
+}
+
 @media (max-width:1320px) {
   .tag{
     margin-left: 0;
@@ -902,6 +979,13 @@ z-index:0 ;
 .contactus .contactusform{
   margin-left: -7vw;
 } 
+
+@media (max-width:1320px) {
+  .contactus .contactusform{
+    margin-left: 0vw;
+  }
+}
+
 .contactus .content ul li {
   padding-left: 5px;
   position: relative;
@@ -922,7 +1006,7 @@ z-index:0 ;
 
 .contactus form{
   max-width: 500px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   text-align: left;
   padding: 20px 0; 
   /* margin-left: -7vw; */
