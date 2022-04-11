@@ -115,9 +115,9 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo {
   margin-left: 1vw;
   font-size: 32px;
-  margin-right: 10vw;
+  /* margin-right: 10vw; */
   /* margin: 0; */
-  padding-right: 100px;
+  /* padding-right: 100px; */
   /* margin-left: -5.5vw; */
   line-height: 1;
   font-weight: 700;
@@ -370,7 +370,7 @@ section {
   position: relative;
 }
 
-.section-title h2::after {
+#section-title-about h2::after {
   content: '';
   position: absolute;
   display: block;
@@ -883,7 +883,7 @@ z-index:0 ;
   /* background-color: black; */
 /* } */
 
-.section-title h2::after {
+#section-title-contact h2::after {
   content: '';
   position: absolute;
   display: block;
@@ -1434,7 +1434,7 @@ input:focus,textarea:focus{
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #009961;
+  background: #8C52FF;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1447,7 +1447,7 @@ input:focus,textarea:focus{
 }
 
 #footer .social-links a:hover {
-  background: #00b371;
+  background: #584482;
   color: #fff;
   text-decoration: none;
 }
