@@ -428,20 +428,20 @@ section {
   margin-top: -8vh;
   padding-top: 10vh;
   opacity: 0;
-  animation: welcome1 10s linear infinite ;
+  animation: welcome1 8s linear infinite ;
   margin-bottom: 0;
 }
 
 #second{
   opacity: 1;
-  animation: welcome2 10s linear  infinite ;
+  animation: welcome2 8s linear  infinite ;
   margin-bottom: 0;
   /* animation-delay: 2s; */
 }
 
 #third{
   opacity: 1;
-  animation: welcome3 10s linear infinite ;
+  animation: welcome3 8s linear infinite ;
   padding-bottom: 0;
   margin-bottom: 0;
   /* animation-delay: 4s; */
@@ -451,7 +451,7 @@ section {
   opacity: 1;
   font-size: 2.5vh;
   right: 24vw;
-  animation: welcome4 10s linear infinite;
+  animation: welcome4 8s linear infinite;
   text-align: right;
   /* animation-delay: 6s; */ 
 }
@@ -767,7 +767,7 @@ z-index:0 ;
   z-index: 100;
 }
 } */
-.points{
+/* .points{
   margin-top: 10px;
   font-size: smaller  ;
   font-weight: 550;
@@ -776,7 +776,7 @@ z-index:0 ;
 .pointss{
   margin-top: 10px;
   font-size: smaller  ;
-}
+} */
 
 .tag{
   margin-bottom: 0;
@@ -784,10 +784,10 @@ z-index:0 ;
   font-size: 20px;
   text-align: justify;
 }
-.img{
+/* .img{
   width: 500px;
   margin-top: 5vh;
-}
+} */
 
 #section-title-about h2::after {
   content: '';
@@ -807,12 +807,12 @@ z-index:0 ;
   .section-title h2 {
   margin-left: 0;
   }
-  .img{
+  /* .img{
     width: 400px;
-  }
+  } */
 }
 
-@media (max-width:1150px) {
+/* @media (max-width:1150px) {
   .img{
     width: 100%;
     margin-top: 12vw;
@@ -824,7 +824,7 @@ z-index:0 ;
     width: 65%;
     margin-top: 2vw;
   }
-} 
+}  */
 @media (min-height:800px) {
   .about h2,.img{
     margin-top: 200px;
@@ -841,11 +841,11 @@ z-index:0 ;
       margin-top: 450px;
     }
   }
-  @media (min-height:800px) and (max-width:990px) {
+  /* @media (min-height:800px) and (max-width:990px) {
     .img{
       margin-top: 0;
     }
-  }
+  } */
 /* .logos{
   align-content: center;
   width: 120px;
@@ -854,7 +854,7 @@ z-index:0 ;
   margin-top: 30px;
 } */
 
-@media (max-width:1000px) {
+/* @media (max-width:1000px) {
   .logos{
     width:0;
     height: 0;
@@ -874,16 +874,16 @@ z-index:0 ;
 }
 .skillss{
   font-size: 16px;
-}
+} */
 
 
 
-@media (max-width:600px) {
+/* @media (max-width:600px) {
   .skills, .skill{
     margin-left: 0;
   }
 
-}
+} */
 /*--------------------------------------------------------------
 # Globe
 --------------------------------------------------------------*/
@@ -1018,6 +1018,7 @@ label{
   display: block;
   margin: 0 auto;
   width: 100%;
+  margin-bottom: 10px;
 }
 
 .contactus input, textarea{
@@ -1300,7 +1301,7 @@ input:focus,textarea:focus{
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-.contact{
+/* .contact{
   padding-top: 0;
   margin-top: 100px;
 }
@@ -1353,7 +1354,7 @@ input:focus,textarea:focus{
   100% {
     transform: rotate(360deg);
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Breadcrumbs
