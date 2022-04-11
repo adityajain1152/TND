@@ -428,20 +428,20 @@ section {
   margin-top: -8vh;
   padding-top: 10vh;
   opacity: 0;
-  animation: welcome1 6s linear infinite ;
+  animation: welcome1 10s linear infinite ;
   margin-bottom: 0;
 }
 
 #second{
   opacity: 1;
-  animation: welcome2 6s linear  infinite ;
+  animation: welcome2 10s linear  infinite ;
   margin-bottom: 0;
   /* animation-delay: 2s; */
 }
 
 #third{
   opacity: 1;
-  animation: welcome3 6s linear infinite ;
+  animation: welcome3 10s linear infinite ;
   padding-bottom: 0;
   margin-bottom: 0;
   /* animation-delay: 4s; */
@@ -451,7 +451,7 @@ section {
   opacity: 1;
   font-size: 2.5vh;
   right: 24vw;
-  animation: welcome4 6s linear infinite;
+  animation: welcome4 10s linear infinite;
   text-align: right;
   /* animation-delay: 6s; */ 
 }
